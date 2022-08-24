@@ -4,60 +4,121 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google</title>
+    <title>Google!</title>
     <style>
         div {
             text-align: center;
+        }
+        .class1 {
+            background-color:rgb(233, 232, 232) ;
+            height: 80px;
+            margin: 1px;
         }
         .class2 {
             font-size: 20px;  
             font-family: 'Times New Roman', Times, serif;
             margin-bottom: 3px;
-        }
-        .class1 {
-            background-color:rgb(233, 232, 232) ;
-        }
-        .left-box {
-            background-color: rgb(88, 236, 217);
+            padding-top: 3px;
         }
         .class3 {
-            padding-bottom: 3px;
+            margin: 5px;
+        }
+        .left-box {
+            background-color: rgb(161, 245, 234);
+            height: 90px;  
+            width: 37%;   
+            float: left;   
+            padding-top: 1%;
+            margin-top: 2px;
+            font-size: 19px;
+            
+        }
+        .center-box {
+            background-color: rgb(123, 222, 205);
+            margin-top: 2px;
+            float: left;
+            height: 98px; 
+            width: 20%; 
+            font-size: 18px;
+            margin-right: 2px;
+            margin-left: 2px;
+            padding-top: 7px;
+        }
+        .right-box {
+            background-color: rgba(91, 166, 154, 0.959);
+            font-size: 18px;
+            margin-top: 2px;
+            height: 105px;
+            width: 42.5%;
+            float: left;
+        } 
+        input.input1 {
+            margin-bottom: 3px;
+            width: 450px;
+        }
+        input.input2 {
+            margin-top: 1px;
+            margin-bottom: 3px;
+            width: 225px;
+        }
+        .btn1 {
+            font-size: 16px;
+            padding-bottom: 1px;
+        }   
+        .btn2 {
+            font-size: 14px;
+        }  
+        .lastline {
+            font-size: 18px;
+            margin-top: 115px;
         }
     </style>
 </head>
 <body>
     <div>
-        <img width="450
-        " src="images/google.jpg" alt="Google" title="Google">
+        <img width="450" src="images/google.jpg" alt="Google" title="Google">
     </div>
-    <!-- Google fotosu kısmı bitişi -->
+    <!-- End of the Google photo -->
+    <!-- Start of the grey backgrounded part -->
     <div class="class1">
         <p class="class2">
             Search the web using Google!
         </p>
-        <img width="450" height="27" src="images/Solid_white_bordered.svg.png" alt="" >
+        <input class="input1" type="text">
       <div>
-        <button>
+        <button class="btn1">
             Google Search
         </button>
-        <button>
+        <button class="btn1">
             I'm feeling lucky
         </button>
       </div> 
     </div>
+    <!-- end of the grey backgrounded part -->
+    <!-- start of the green boxes part -->
     <div>
        <div class="left-box">
-          <p class="class3">Special searches</p>
-          <p class="class3">
-            <a href="https://www.stanford.edu/search/">Stanford Search</a>
-          </p>
-          <p>
-            <a href="">Linux Search</a>
-          </p> 
+          Special searches <br>
+          <a href="https://www.stanford.edu/search/">Stanford Search</a> <br>
+          <a href="">Linux Search</a>
        </div>
-       <div class="center-box"></div>
-       <div class="right-box"></div>
+    <!--end of the left part of the green boxes -->
+       <div class="center-box">
+        <a href="https://support.google.com">Help!</a> <br>
+        <a href="https://about.google">About Google!</a> <br>
+        <a href="https://about.google">Company Info</a> <br>
+        <a href="https://about.google/brand-resource-center/logos-list/">Google! Logos</a>
+       </div>
+    <!--end of the center part of the green boxes -->
+       <div class="right-box">
+        <p class="class3">Get Google! <br>
+        updates monthly</p>
+        <input class="input2" type="text" placeholder="your e-mail"> <br>
+        <button class="btn2">Subscribe</button>
+        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi5mLzQ_d35AhUzQfEDHY8PAN8QFnoECAUQAQ&url=https%3A%2F%2Fgroups.google.com%2Fg%2Fgoogle-friends&usg=AOvVaw3_ceZQaoFUQue2gy4zFGDn">Archive</a>
+       </div> <br>
+    <!-- end of the green boxes part -->
+       <p class="lastline">Copyright ©1998 Google Inc.</p>
     </div>
-
 </body>
 </html>
